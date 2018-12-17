@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> <!--Icones-->
+        <link rel="stylesheet" type="text/css" href="style.css"> <!--Pour tout le monde-->
+        <link rel="stylesheet" type="text/css" media="all and (max-width: 1024px)" href="petite_resolution.css"> <!--Pour ceux qui ont une résolution inférieur à 1280px-->
+        <title>WebAgency</title>
+    </head>
+
+    <body>
+    		<header>
+    				<img src="images/logo.png" alt="logo de l'agence" id="logo" />
+
+	    		<nav class="first_ul">
+	    			<ul>
+	    				<li><a href="#accueil">Accueil</a></li>
+	    				<li><a href="#services">Services</a></li>
+	    				<li><a href="#portfolio">Portfolio</a></li>
+	    				<li><a href="#contact">Contact</a></li>
+	    			</ul>
+	    		</nav>	
+    		</header>
+
+
+    													<!--En-tête du site-->
+
+    					
+		    <div id="slider">
+				<figure id="accueil">
+				    <img src="images/slider/bg1.jpg" alt="petite_fille" >
+				    <img src="images/slider/bg2.jpg" alt="petit_garçon" >
+				</figure>
+
+				<span id="animation"></span>
+
+		    	<div id="description_image">
+		    		<h1 id="titre"><span id="blue">WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+			    	<p id="p1">Vous avez un projet web? La WebAgency vous aide à le réaliser!</p>
+			    	<a href="#" class="bouton_bleu" id="infos">Plus d'infos</a>	
+		    	</div>
+
+		    	<section id="slideshow">
+    				<a class="commands prev" href="#sl_i4" title="Suivant"><i class="fas fa-chevron-left"></i></a>
+					<a class="command next" href="#sl_i2" title="Suivant"><i class="fas fa-chevron-right"></i></a>
+    			</section>
+		    </div>
+    		
+
+    													<!--Nos services-->
+
+    		
+    			<h1 id="services">NOS SERVICES</h1>
+    				<div class="cercle"></div>
+    				<hr />
+    				<P class="description">Nous vous proposons nos services (UX design, UI design, SEO) pour vous aider et vous guider dans la réalisation de vos projets!</P>
+    				<section id="section1">
+	    				<img src="images/main-feature-re.png" alt="Photo d'un Mac" id="photo_mac">
+								<div id="column">
+				    				<div class="container1">
+				    					<div class="iconetext">
+				    						<div class="icone1">
+												<i class="fas fa-chart-line "></i>
+											</div>
+											<div class="icone2">
+												<i class="circle fas fa-circle"></i>
+											</div>
+				    					</div>
+				    					<div class="marg">
+					    					<p><strong>UX design</strong><br />Concevez un site web de manière à ce que l’expérience utilisateur soit la meilleure possible ! Penser un site web de manière à ce que l’utilisateur se sente bien, en confiance, et puisse trouver les informations qu’il cherche tout en ayant envie d’interagir avec le site.</p>
+					    				</div>
+					    			</div>
+
+					    			<div class="container2">
+					    				<div class="iconetext">
+					    					<div class="icone1">
+												<i class="fas fa-cubes"></i>
+											</div>
+											<div class="icone2">
+												<i class="circle fas fa-circle"></i>
+											</div>
+					    				</div>
+					    				<div class="marg">
+					    					<p><strong>UI design</strong><br />Concevez un site visuelement attractif ! Décider du design visuel du site, comme par exemple les couleurs, la typographie…</p>
+					    				</div>
+					    			</div>
+
+					    			<div class="container3">
+					    				<div class="iconetext">
+					    					<div class="icone1">
+												<i class="fas fa-chart-pie "></i>
+											</div>
+											<div class="icone2">
+												<i class="circle fas fa-circle"></i>
+											</div>
+					    				</div>
+					    				<div class="marg">
+					    					<p><strong>SEO</strong><br />Positionner vôtre site, vôtre page web ou vôtre application dans les premiers résultats naturels des moteurs de recherche !</p>
+					    				</div>
+					    			</div>
+					    		</div>
+			    	</section>
+	    			
+
+    													<!--Nos Projets-->
+
+    		<section id="section_2">
+    			<h1 id="portfolio">NOS PROJETS</h1>
+    				<div class="cercle"></div>
+    				<hr />
+    				<p class="description">Voici certains projets que nous avons pu réaliser.</p>
+
+						<div id="a_projets">
+		    				<ul>
+		    					<li ><a href="#">All Works <div class="triangledown"></div></a></li>
+		    					<li ><a href="#">Creative <div class="triangledown"></div></a></li>
+		    					<li ><a href="#">Corporate <div class="triangledown"></div></a></li>
+		    					<li ><a href="#">Portfolio <div class="triangledown"></div></a></li>
+    						</ul>
+    					</div>
+
+    				
+    				<div id="ensembleimages">
+						<div class="containerimg">
+							<img src="images/portfolio/01.jpg" alt="images_projet" />
+							<div class="overlay">
+								<p class="text"><strong class="strong2">Projet 1:</strong><br />En savoir plus sur ce projet</p>
+								<i class="far fa-eye"></i>
+							</div>
+						</div>
+
+						<div class="containerimg">
+							<img src="images/portfolio/02.jpg" alt="images_projet" />
+							<div class="overlay">
+								<p class="text"><strong class="strong2">Projet 2:</strong><br />En savoir plus sur ce projet</p>
+								<i class="far fa-eye"></i>
+							</div>
+						</div>
+
+						<div class="containerimg">
+							<img src="images/portfolio/03.jpg" alt="images_projet" />
+							<div class="overlay">
+								<p class="text"><strong class="strong2">Projet 3:</strong><br />En savoir plus sur ce projet</p>
+								<i class="far fa-eye"></i>
+							</div>
+						</div>
+
+						<div class="containerimg">
+							<img src="images/portfolio/04.jpg" alt="images_projet" />
+							<div class="overlay">
+								<p class="text"><strong class="strong2">Projet 4:</strong><br />En savoir plus sur ce projet</p>
+								<i class="far fa-eye"></i>
+							</div>
+						</div>
+
+						<div class="containerimg">
+							<img src="images/portfolio/05.jpg" alt="images_projet" />
+							<div class="overlay">
+								<p class="text"><strong class="strong2">Projet 5:</strong><br />En savoir plus sur ce projet</p>
+								<i class="far fa-eye"></i>
+							</div>
+						</div>
+
+						<div class="containerimg">
+							<img src="images/portfolio/06.jpg" alt="images_projet" />
+							<div class="overlay">
+								<p class="text"><strong class="strong2">Projet 6:</strong><br />En savoir plus sur ce projet</p>
+								<i class="far fa-eye"></i>
+							</div>
+						</div>
+
+						<div class="containerimg">
+							<img src="images/portfolio/07.jpg" alt="images_projet" />
+							<div class="overlay">
+								<p class="text"><strong class="strong2">Projet 7:</strong><br />En savoir plus sur ce projet</p>
+								<i class="far fa-eye"></i>
+							</div>
+						</div>
+
+						<div class="containerimg">
+							<img src="images/portfolio/08.jpg" alt="images_projet" />
+							<div class="overlay">
+								<p class="text"><strong class="strong2">Projet 8:</strong><br />En savoir plus sur ce projet</p>
+								<i class="far fa-eye"></i>
+							</div>
+						</div>
+
+						<div class="containerimg">
+							<img src="images/portfolio/full.jpg" alt="images_projet" />
+							<div class="overlay">
+								<p class="text"><strong class="strong2">Projet 9:</strong><br />En savoir plus sur ce projet</p>
+								<i class="far fa-eye"></i>
+							</div>
+						</div>
+					</div>
+
+    		</section>
+
+
+    														<!--Carte et formulaire de contact-->
+    		<div id="contact"></div>												
+    		<section id="section_3">
+    			<div id="colors"></div>
+    			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2157873756946!2d2.3476302516034457!3d48.87316277918746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145cb52f15%3A0x4d3ec41b2cadff0!2s25+Rue+d'Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1516286262116" allowfullscreen=""></iframe>
+    			<div id="contactermoi">
+	    			<h1 id="contact_">Contact Info</h1>
+		    			<p id="couleur768">
+		    				WebAgency SAS <br />
+		    				25 rue d'Hauteville 75010 Paris <br />
+		    				Tel: 01 02 03 04 05
+		    			</p>
+		    		<form method="post" action="traitement.php">
+						<p>
+							<input type="text" name="pseudo" placeholder="  Name"  /><br />
+							<input type="email" name="mail" placeholder="  Email"  /><br />
+							<input type="text" name="Sujet" placeholder="  Sujet"  /><br />
+							<textarea name="message" placeholder=" Message" ></textarea>
+						</p>
+					</form>
+							<a href="#" id="envoi_mess">Send Message</a>
+				</div>
+    		</section>
+    </body>
+</html>
+
