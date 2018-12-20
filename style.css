@@ -539,7 +539,7 @@ textarea
     padding: 7px;
     border: 1px solid #C5C8C9;
     border-radius: 4px;
-    
+    resize: none; 
 }
 
 input::placeholder{
