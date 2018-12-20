@@ -351,12 +351,12 @@ strong{
   position: relative;
   width: 15em;
   margin-top: 2.18em;
-  padding-right: 5em;
-  margin-right: 3em;
+  display: flex;
+  justify-content: center;  
 }
 
 img {
-  width: 20em;
+  width: 23em;
   height: 14em;
 }
 
@@ -364,11 +364,10 @@ img {
   position: absolute;
   bottom: 0;
   height: 30%;
-  width: 100%;
+  width: 23em;
   opacity: 0;
   transition: .5s linear; /*Effet sur la transition du hover qui apparait */
   background-color: rgba(0, 0, 0, 0.3);
-  margin-bottom: 0.2em;
   padding-bottom: 1em;
 }
 
